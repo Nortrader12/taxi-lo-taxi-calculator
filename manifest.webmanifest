@@ -1,7 +1,7 @@
 {
   "id": "./",
   "name": "的士佬的士計數器",
-  "short_name": "的士佬計數器",
+  "short_name": "的士佬的士計數器",
   "description": "香港紅的／綠的／藍的咪錶、車租、石油氣及夜更收入計數器",
   "lang": "zh-Hant-HK",
   "start_url": "./?app=1",

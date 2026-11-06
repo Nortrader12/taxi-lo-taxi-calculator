@@ -1,5 +1,5 @@
 /* 的士佬的士計數器 · PWA offline shell */
-const CACHE = 'taxi-lo-taxi-pwa-2026-11-04-v3';
+const CACHE = 'taxi-lo-taxi-pwa-2026-11-06-v4';
 const APP_SHELL = ['./','./index.html','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png','./icons/apple-touch-icon.png'];
 self.addEventListener('install', event => {
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(APP_SHELL)).then(()=>self.skipWaiting()));
